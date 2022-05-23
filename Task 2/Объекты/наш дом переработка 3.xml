@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<U3D_ModelInfo>
+ <Model_Bounds>
+  <Minimum x="206.601232" y="49.855420" z="-0.240000"/>
+  <Maximum x="216.826768" y="59.632967" z="7.066238"/>
+ </Model_Bounds>
+
+ <Projection>
+  <PerspectiveView>
+   <CameraPosition x="198.750351" y="43.149512" z="6.160776"/>
+   <TargetPosition x="229.180430" y="61.800538" z="3.680954"/>
+   <FocusDistance>35.691044</FocusDistance>
+   <RollAngle>0.000000</RollAngle>
+  </PerspectiveView>
+
+ </Projection>
+</U3D_ModelInfo>

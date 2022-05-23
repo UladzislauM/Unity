@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'ru' Physical Memory: 32675 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/GitHub/Unity/CursorRTS
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60038
+Successfully changed project path to: D:/GitHub/Unity/CursorRTS
+D:/GitHub/Unity/CursorRTS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 127.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Unity/CursorRTS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12137 MB
+    Driver:   31.0.15.1601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005884 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 145.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (146ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Unity\CursorRTS\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Unity\CursorRTS\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+HeroKit loaded in Unity Editor
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HeroKitAutoRun:AutoRunForHeroKit () (at Assets/HeroKit/Hero Engine/Framework/4. Hero Common/Editor/HeroKitAutoRun.cs:27)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/HeroKit/Hero Engine/Framework/4. Hero Common/Editor/HeroKitAutoRun.cs Line: 27)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.539 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1540ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (845ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (395ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (225.9 KB). Loaded Objects now: 5263.
+Memory consumption went from 171.3 MB to 171.0 MB.
+Total: 3.978800 ms (FindLiveObjects: 0.543600 ms CreateObjectMapping: 0.182000 ms MarkObjects: 3.039700 ms  DeleteObjects: 0.211300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 342316.355737 seconds.
+  path: Assets/HeroKit/HeroKit Samples/Assets/Graphics/Prefabs (Level 1 Monster Pack)/Models/Materials/SlimeMaterial.mat
+  artifactKey: Guid(6786d4cbac061d048be37a02430ff865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/HeroKit Samples/Assets/Graphics/Prefabs (Level 1 Monster Pack)/Models/Materials/SlimeMaterial.mat using Guid(6786d4cbac061d048be37a02430ff865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bb00f38198f804ffd6e2203de6c259') in 0.171442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.298162 seconds.
+  path: Assets/HeroKit/HeroKit Samples/Assets/Graphics/Prefabs (Level 1 Monster Pack)/Models/Rabbit_Level_1.fbx
+  artifactKey: Guid(3acd256e7b3b8f94fbb8dd23972c5b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/HeroKit Samples/Assets/Graphics/Prefabs (Level 1 Monster Pack)/Models/Rabbit_Level_1.fbx using Guid(3acd256e7b3b8f94fbb8dd23972c5b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658c9a4453c7f2ed84942b34aaadb180') in 0.074198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.662889 seconds.
+  path: Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Texture/hit_03.png
+  artifactKey: Guid(f6e3386c0f019f54ba2c34a82f53dc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Texture/hit_03.png using Guid(f6e3386c0f019f54ba2c34a82f53dc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d3d0be07fd641c8424f85d2805b201') in 0.037707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Texture/star_01.png
+  artifactKey: Guid(abc0ae8ac2c38ec4c856e67d1da0c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Texture/star_01.png using Guid(abc0ae8ac2c38ec4c856e67d1da0c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb7fa8fb58419d750cdd1c79fdd4131') in 0.019317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Texture/magic_01.png
+  artifactKey: Guid(d7d184e669e59d14fbee5da37b595c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Texture/magic_01.png using Guid(d7d184e669e59d14fbee5da37b595c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6e271be609d0b031633d89c96245ea') in 0.012716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693481 seconds.
+  path: Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Particles/line 01.prefab
+  artifactKey: Guid(8b561b6217ec0494ebb9872cbcfd2698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/HeroKit Samples/Assets/Graphics/Particles (Particle Collection SKJ 2016)/Particles/line 01.prefab using Guid(8b561b6217ec0494ebb9872cbcfd2698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10aa9c19ec09db08e26134bd44cfc35') in 0.029068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.745332 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/JosefinSans-Bold-20.ttf
+  artifactKey: Guid(966ad642528acb046899b0587d91b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/JosefinSans-Bold-20.ttf using Guid(966ad642528acb046899b0587d91b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa55b046ffcbbd04baef4cefc2a5af2') in 0.039022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.699253 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Gizmos/HeroObject Icon.png
+  artifactKey: Guid(bda1283f64c5b53429ef7a7a8554e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Gizmos/HeroObject Icon.png using Guid(bda1283f64c5b53429ef7a7a8554e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b27a6a3e9dbee7166e1c082d91f123') in 0.016833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.276136 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Components/HeroKit 2D Platformer Rigidbody.prefab
+  artifactKey: Guid(d56edfb8a046a5c48866dceba3b9376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Components/HeroKit 2D Platformer Rigidbody.prefab using Guid(d56edfb8a046a5c48866dceba3b9376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbadbf42e03ac075d1e0fe6deddc0a28') in 0.033810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009079 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Components/HeroKit Image Canvas.prefab
+  artifactKey: Guid(28ce11049f159de4088f1b36d5876073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Components/HeroKit Image Canvas.prefab using Guid(28ce11049f159de4088f1b36d5876073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5d2e67874c82a168baab6a6a8bddfd') in 0.045027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.839393 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Game Over Menu Controller.asset
+  artifactKey: Guid(41bdf59c046b5504aa25095a50e1c493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Game Over Menu Controller.asset using Guid(41bdf59c046b5504aa25095a50e1c493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a042332494f0230cf97dd012d1a475') in 0.018276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Inventory Menu.prefab
+  artifactKey: Guid(bd1eafce2ed6a1045ba24d4f812391c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Inventory Menu.prefab using Guid(bd1eafce2ed6a1045ba24d4f812391c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796ee51fb5873d4439d06fbe82a69003') in 0.022074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/Journal Slot Controller.asset
+  artifactKey: Guid(f581c9865f538b14cb742aca3d2dd936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/Journal Slot Controller.asset using Guid(f581c9865f538b14cb742aca3d2dd936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9661e193e80d0894c07a3617eab4285') in 0.012724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/Inventory Slot.prefab
+  artifactKey: Guid(040ce76fd6649b047a6f255ca59a2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/Inventory Slot.prefab using Guid(040ce76fd6649b047a6f255ca59a2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4d51de00a43a4a5eafb2499c6f6d7e') in 0.018205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Start Menu.prefab
+  artifactKey: Guid(e3cfa027b6562f346bc2369ccc4a5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Start Menu.prefab using Guid(e3cfa027b6562f346bc2369ccc4a5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbb6eebd1067687894de83b4412daed') in 0.046587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Save Menu Controller.asset
+  artifactKey: Guid(76754db56f95ff149a48f6bfdf807068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HeroKit/Hero Engine/Assets/Resources/Hero Templates/Menus/HeroKit Save Menu Controller.asset using Guid(76754db56f95ff149a48f6bfdf807068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3259f1ec10056295673c949accff2685') in 0.020782 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

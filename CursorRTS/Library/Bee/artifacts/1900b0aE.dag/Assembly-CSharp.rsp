@@ -367,9 +367,18 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/pathfinding_grid/scripts/character.cs"
+"Assets/pathfinding_grid/scripts/grid_manager.cs"
+"Assets/pathfinding_grid/scripts/sub_stuff.cs"
+"Assets/pathfinding_grid/scripts/tile.cs"
+"Assets/pathfinding_grid/scripts/walls.cs"
 "Assets/Scripts/CameraMuvement.cs"
 "Assets/Scripts/CursorRTS.cs"
 "Assets/Scripts/ResControl.cs"
+"Assets/Scripts/ScriptsForGame/Building.cs"
+"Assets/Scripts/ScriptsForGame/BuildingsGrid.cs"
+"Assets/Scripts/ScriptsForGame/CameraController.cs"
+"Assets/Scripts/ScriptsForGame/SelectBox.cs"
 "Assets/Scripts/UnitControl.cs"
 -langversion:9.0
 

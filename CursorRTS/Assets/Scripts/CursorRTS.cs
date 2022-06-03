@@ -49,14 +49,14 @@ public class CursorRTS : MonoBehaviour
             selecting = false;
             DecelectAll();
 
-            if (mouseStartPosition == Input.mousePosition)
-            {
-                SingleSelect();
-            }
-            else
-            {
-                MultiSelect();
-            }
+            //if (mouseStartPosition == Input.mousePosition)
+            //{
+            //    //SingleSelect();
+            //}
+            //else
+            //{
+            //    MultiSelect();
+            //}
         }
     }
 
@@ -99,13 +99,13 @@ public class CursorRTS : MonoBehaviour
         }
     }
 
-    private void SingleSelect()
-    {
-        if (hit.collider.gameObject.CompareTag("Player"))
-        {
-            //hit.collider.gameObject.GetComponent<UnitControl>().isSelected = true;
-        }
-    }
+    //private void SingleSelect()
+    //{
+    //    if (hit.collider.gameObject.CompareTag("Player"))
+    //    {
+    //        hit.collider.gameObject.GetComponent<UnitControl>().isSelected = true;
+    //    }
+    //}
 
     private void DecelectAll()
     {

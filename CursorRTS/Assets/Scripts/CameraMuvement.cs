@@ -31,27 +31,22 @@ public class CameraMuvement : MonoBehaviour
         if (Input.mousePosition.x <= 20)
         {
             camPos.x -= Time.deltaTime * speed;
-            //camPos.y += Time.deltaTime * speed;
         }
         else if (Input.mousePosition.x >= screenWidth - 20)
         {
             camPos.x += Time.deltaTime * speed;
-            //camPos.y -= Time.deltaTime * speed;
         }
         else if (Input.mousePosition.y <= 20)
         {
-            //camPos.x -= Time.deltaTime * speed;
             camPos.y -= Time.deltaTime * speed;
         }
         else if (Input.mousePosition.y >= screenWidth - 20)
         {
-            //camPos.x += Time.deltaTime * speed;
             camPos.y += Time.deltaTime * speed;
         }
         if (useCamera)
         {
             transform.position = new Vector3(Mathf.Clamp(camPos.x, endCameraXMin, endCameraXMax), Mathf.Clamp(camPos.y, endCameraYMin, endCameraYMax));
-            //transform.position = camPos;
         }
     }
 }

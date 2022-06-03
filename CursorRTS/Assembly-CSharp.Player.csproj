@@ -56,10 +56,22 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ScriptsForGame\Building.cs" />
+    <Compile Include="Assets\pathfinding_grid\scripts\walls.cs" />
+    <Compile Include="Assets\Scripts\UnitControl.cs" />
+    <Compile Include="Assets\Scripts\ScriptsForGame\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsForGame\SelectBox.cs" />
+    <Compile Include="Assets\pathfinding_grid\scripts\character.cs" />
     <Compile Include="Assets\Scripts\CursorRTS.cs" />
+    <Compile Include="Assets\pathfinding_grid\scripts\grid_manager.cs" />
     <Compile Include="Assets\Scripts\CameraMuvement.cs" />
     <Compile Include="Assets\Scripts\ResControl.cs" />
-    <Compile Include="Assets\Scripts\UnitControl.cs" />
+    <Compile Include="Assets\pathfinding_grid\scripts\sub_stuff.cs" />
+    <Compile Include="Assets\Scripts\ScriptsForGame\BuildingsGrid.cs" />
+    <Compile Include="Assets\pathfinding_grid\scripts\tile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\pathfinding_grid\ReadMe (How To Guide).txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
